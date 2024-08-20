@@ -60,9 +60,13 @@ Maximum element: 10
 ```
 
 # Explanation
-1.The program first asks for the number of elements.
-2.Then, it prompts you to enter the elements of the array.
-3.It computes the minimum and maximum values and prints them.
+
+1.**Initialization:**
+     - The program initializes min with the first element of the array and max with 0.
+2.**Iterations:**
+     - Iterates through the array to update min and max based on the current element.
+3.**Output:**
+     - Displays the smallest and largest values found in the array.
 
 # Detailed Iteration for Example Input:
 
