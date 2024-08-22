@@ -54,10 +54,10 @@ Consider the input string "GEEKS FOR GEEKS":
 This process continues until all unique characters are collected, and duplicates are effectively ignored.
 
 3. **Building the Result String:**
+      - A StringBuilder is used to efficiently build the result string as characters are appended.
 
 ## Why Using StringBuilder is Effective:
 
-   - A StringBuilder is used to efficiently build the result string as characters are appended.
 1. Efficiency in String Manipulation:
 
    - In Java, strings are immutable, meaning that every time you concatenate two strings using the + operator, a new string is created in memory.
