@@ -10,7 +10,7 @@ In other words, a palindrome remains unchanged when its characters are reversed.
    - Symmetry: The sequence of characters is symmetrical, meaning the first half is a mirror image of the second half.
    - Reversible: It reads the same forwards and backwards.
 
-1. Brute Force Method
+1. **Brute Force Method**
 
 ## Description
 This method uses the StringBuilder class to reverse the input string and then compares the reversed string with the original string to determine if it is a palindrome.
@@ -60,7 +60,7 @@ public class PalindromeCheckBruteForce {
   - String Reversal: Each character in the string is visited once to reverse it.
   - String Comparison: Each character in the original and reversed strings is compared.
 
-2. Optimized Two-Pointer Method
+2. **Optimized Two-Pointer Method**
 
 This method uses two pointers to compare characters from both ends of the string, moving towards the center. It efficiently checks for a palindrome without extra space for another string.
 
